@@ -1,0 +1,92 @@
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 480px) {
+}
+@media only screen and (max-width: 375px) {
+}
+
+.coffe__select {
+  margin-top: 400px;
+  position: relative;
+  margin-left: 80px;
+  
+
+  &--title {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+    color: #83888f;
+  }
+
+  &--oval {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    background-color: #fefcf7;
+    border-radius: 50%;
+    border: 2px solid #0e8784;
+    top: 105px;
+  }
+  &--oval2 {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    background-color: #fefcf7;
+    border-radius: 50%;
+    border: 2px solid #0e8784;
+    top: 105px;
+    left: 380px;
+  }
+  &--oval3 {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    background-color: #fefcf7;
+    border-radius: 50%;
+    border: 2px solid #0e8784;
+    top: 105px;
+    left: 770px;
+  }
+  &--line {
+    width: 790px;
+    height: 1px;
+    background-color: #fdd6ba;
+    margin-top: 95px;
+  }
+
+  &--card {
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+
+    &-in {
+      width: 285px;
+      height: 355px;
+      margin-top: 82px;
+    }
+  }
+  &--card h2 {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+    margin-top: 38px;
+  }
+  &--card p {
+    margin-top: 42px;
+    width: 285px;
+    height: 130px;
+  }
+  &--card button {
+    @extend %button;
+  }
+
+  &--card button:hover {
+    @extend %btn-hover;
+  }
+
+  
+}

@@ -1,0 +1,71 @@
+@media only screen and (max-width: 992px){}
+@media only screen and (max-width: 768px){}
+@media only screen and (max-width: 576px){}
+@media only screen and (max-width: 480px){}
+@media only screen and (max-width: 375px){}
+
+
+
+
+
+.collection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+  &__title {
+    background: linear-gradient(
+      180deg,
+      rgba(254, 252, 247, 0.0001) 0%,
+      #fefcf7 100%
+    );
+    width: 1111px;
+    height: 196px;
+    display: flex;
+    justify-content: center;
+    margin-top: 137px;
+    background-image: url("../../images/section-hero/our\ collection.svg");
+  }
+
+  &__title--one {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    
+  }
+  &__title--one-img {
+    position: relative;
+    top: -70px;
+  }
+
+  &__title--two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+  }
+  &__title--two-desc{
+    width: 255px;
+    height: 134px;
+    text-align: center;
+  }
+
+  .two-head{
+    font-size: 24px;
+    font-weight: 900;
+    color: #333D4B;
+    font-family: 'Fraunces', serif;
+   
+  }
+  .two-desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333D4B;
+    margin-top: 24px;
+    width: 255px;
+    height: 78px;
+  }
+
+}

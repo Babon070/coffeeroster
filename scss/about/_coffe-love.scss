@@ -1,0 +1,44 @@
+.coffe-love {
+  .country__coffes {
+    height: 474px;
+    background-color: #2c343e;
+    margin-top: 244px;
+    border-radius: 10px;
+    position: relative;
+    
+
+    &--text {
+      position: absolute;
+      color: #fff;
+      width: 540px;
+      height: 210px;
+      margin-left: 85px;
+      top: 100px;
+    }
+    &--text h2 {
+     
+      font-size: 40px;
+      font-weight: 900;
+      font-family: "Fraunces", serif;
+      line-height: 48px;
+      
+    }
+    &--text p {
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Barlow", sans-serif;
+      color: #fefcf7;
+      margin-top: 32px;
+    }
+
+    &--img {
+        position: absolute;
+        left: 750px;
+        bottom: 60px;
+       
+    }
+    &--img img{
+        border-radius: 8px;
+    }
+  }
+}

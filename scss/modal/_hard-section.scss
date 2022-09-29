@@ -1,0 +1,68 @@
+.modal-window{
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.431);
+    z-index: 111;
+    display: flex;
+    top: 0;
+   
+
+    .window{
+        width: 540px;
+        height: 597px;
+        background-color: #fff;
+        margin: 120px auto;
+        border-radius: 10px;
+
+        &-head h2{
+            padding: 40px;
+            font-family: "Fraunces", serif;
+            font-weight: 900;
+            font-size: 40px;
+            color: #fff;
+            background-color: #333D4B;
+        }
+
+        .win-desc{
+            @extend %description;
+            margin-left: 40px;
+            margin-top: 56px;
+        }
+        .win-desc span{
+            @extend %description-span;
+
+        }
+
+        .win-desc2{
+            width: 428px;
+            height: 78px;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Barlow', sans-serif;
+            margin-top: 7px;
+            margin-left: 40px;
+            color: #333D4B;
+        }
+        .price{
+            font-family: "Fraunces", serif;
+            font-weight: 900;
+            font-size: 32px;
+            margin-left: 40px;
+            margin-top: 57px;
+        }
+
+        .window-button{
+            @extend %button;
+            margin-left: 20px;
+            margin-top: 47px;
+        }
+        .window-button a{
+            color: #fff;
+            font-size: 18px;
+            font-family: "Fraunces", serif;
+            font-weight: 900;
+        }
+
+    }
+}

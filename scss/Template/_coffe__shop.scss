@@ -1,0 +1,144 @@
+.coffe__shop {
+
+
+  .complated__coffes {
+    display: flex;
+    justify-content: space-between;
+    // ========= SAIDBAR
+
+    &--saidbar {
+      display: flex;
+      flex-direction: column;
+      margin-top: 160px;
+      margin-left: 80px;
+    }
+
+    &--saidbar p {
+      color: #333d4b;
+      margin: 25px;
+      font-size: 24px;
+      font-weight: 900;
+      font-family: "Fraunces", serif;
+    }
+    &--saidbar span {
+      margin-right: 15px;
+      color: #0e8784;
+    }
+    .opacity {
+      opacity: 0.5;
+    }
+    .opacity1 {
+      opacity: 0.5;
+    }
+    .opacity2 span {
+      opacity: 0.5;
+    }
+    .opacity1 span {
+      color: #83888f;
+      opacity: 0.5;
+    }
+
+    // CARD =========== START RIGHT
+    &--contend {
+      margin-top: 230px;
+      width: 56%;
+      
+    }
+   
+
+    .card-block {
+      margin-top: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .contend-card {
+      @extend %card;
+    }
+    .contend-card2 {
+      @extend %card2;
+    }
+    .contend-card01{
+      @extend %card2;
+    }
+
+    .contend-card h2 {
+     @extend %cardhead;
+      
+    }
+    .contend-card p {
+      @extend %carddesc;
+    }
+
+    .contend-card2 h2 {
+      @extend %cardhead2;
+    }
+    .contend-card2 p {
+      @extend %carddesc2;
+    }
+
+  
+  }
+  .complated__coffes h2 {
+    left: 660px;
+    top: 1455px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #83888f;
+    font-family: "Fraunces", serif;
+  }
+
+  .card-marg{
+    margin-top: 88px;
+  }
+  .summary__block {
+    width: 720px;
+    height: 208px;
+    background-color: #2c343e;
+    margin-top: 84px;
+    margin-left: 565px;
+  
+    .block-coffe-drink {
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 40px;
+      font-family: "Fraunces", serif;
+      padding: 31px 0 0 64px;
+    }
+    .block-coffe-drink h4 {
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Barlow", serif;
+      text-transform: uppercase;
+      color: #fff;
+      opacity: 0.5;
+    }
+  
+    .block-coffe-drink p {
+      width: 620px;
+      height: 120px;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 40px;
+      font-family: "Fraunces", serif;
+      color: #fff;
+    }
+    .block-coffe-drink span {
+      color: #0e8784;
+      font-family: "Fraunces", serif;
+    }
+  }
+  
+  .drink-btn {
+    @extend %button;
+    margin-top: 30px;
+    margin-left: 1068px;
+  } 
+
+  .drink-btn:hover {
+    @extend %btn-hover;
+  } 
+
+ 
+}

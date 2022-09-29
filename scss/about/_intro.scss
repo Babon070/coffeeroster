@@ -1,0 +1,38 @@
+.intro{
+
+
+    .block1{
+       background-image: url(../../images/about/section-img/Group\ 7.png);
+       height: 450px;
+       background-size: cover;
+       position: relative;
+       margin-top: 45px;
+
+       &__intro{
+        position: absolute;
+        color: #fff;
+        width: 445px;
+        height: 176px;
+        margin-left: 85px;
+        margin-top: px;
+        top: 137px;
+        left: 85px;
+       }
+       &__intro h2{
+        font-size: 40px;
+        font-weight: 9000;
+        font-family: 'Fraunces', serif;
+       }
+
+     
+
+       &__intro p{
+        color: #FEFCF7;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Barlow', sans-serif;
+        margin-top: 24px;
+       }
+    }
+
+}

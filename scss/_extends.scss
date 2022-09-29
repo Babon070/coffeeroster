@@ -1,0 +1,101 @@
+%button {
+  width: 217px;
+  height: 58px;
+  border-radius: 6px;
+  background-color: #0e8784;
+  color: $main-light;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+  border: none;
+
+}
+%btn-hover{
+  width: 217px;
+  height: 58px;
+  border-radius: 6px;
+  background-color: #66D2CF;
+  color: $main-light;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+  border: none;
+  cursor: pointer;
+}
+%btn-disabled{
+  width: 217px;
+  height: 58px;
+  border-radius: 6px;
+  background-color: #E2DEDB;
+  color: $main-light;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+  border: none;
+  cursor: pointer;
+}
+
+%card {
+  width: 228px;
+  height: 250px;
+  background: #f4f1eb;
+  border-radius: 8px;
+}
+
+%card2 {
+  width: 228px;
+  height: 250px;
+  background: #0e8784;
+  border-radius: 8px;
+}
+
+%cardhead {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+  margin-top: 32px;
+  color: #333d4b;
+  margin-left: 28px;
+}
+%carddesc {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Barlow", serif;
+  margin-top: 24px;
+  width: 172px;
+  height: 78px;
+  margin-left: 28px;
+}
+%cardhead2 {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+  margin-top: 32px;
+  color: #fff;
+  margin-left: 28px;
+}
+%carddesc2 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Barlow", serif;
+  margin-top: 24px;
+  width: 172px;
+  height: 78px;
+  color: #fff;
+  margin-left: 28px;
+}
+
+%description{
+  width: 428px;
+  height: 160px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  font-family: "Fraunces", serif;
+  color: #83888F;
+}
+
+%description-span{
+  color: #0e8784;
+  font-family: "Fraunces", serif;
+}

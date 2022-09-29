@@ -1,0 +1,444 @@
+// @media only screen and (max-width: 992px){
+//   .wrapper {
+//     height: 537px;
+//     width: 1300px;
+//     background-color: #2c343e;
+//     margin-top: 200px;
+//     display: flex;
+//     justify-content: center;
+//     border-radius: 5px;
+//     position: relative;
+  
+//     &__team {
+//       width: 540px;
+//       height: 160px;
+//     }
+  
+//     &__team h2 {
+//       color: rgb(255, 255, 255);
+//       font-size: 40px;
+//       font-weight: 900;
+//       font-family: "Fraunces", serif;
+//       text-align: center;
+//       margin-top: 121px;
+//     }
+//     &__team p {
+//       mix-blend-mode: normal;
+//       opacity: 0.8;
+//       color: #fefcf7;
+//       width: 540px;
+//       height: 80px;
+//       font-size: 16px;
+//       font-weight: 400;
+//       font-family: "Fraunces", serif;
+//       text-align: center;
+//       margin-top: 32px;
+//     }
+  
+//     // CARD START
+  
+//     &__block {
+//       position: absolute;
+//       top: 350px;
+//       display: flex;
+//       justify-content: space-around;
+//       width: 90%;
+  
+  
+//       &--card{
+//        padding-top: 72px;
+//         height: 136px;
+//         text-align: center;
+//         width: 350px;
+//         height: 382px;
+//         background: #0e8784;
+//         border-radius: 8px;
+//       }
+//       &--card h3{
+//        margin-top: 56px;
+//        font-size: 24px;
+//        font-weight: 900;
+//        font-family: "Fraunces", serif;
+//        color: #fefcf7;
+//       }
+//       &--card p{
+//         font-size: 16px;
+//         font-weight: 400;
+//         font-family: 'Barlow', sans-serif;
+//         color: #FEFCF7;
+//         margin-top: 24px;
+//         line-height: 26px;
+//       }
+//     }
+//   }
+// }
+// @media only screen and (max-width: 768px){
+//   .wrapper {
+//     height: 537px;
+//     width: 1300px;
+//     background-color: #2c343e;
+//     margin-top: 200px;
+//     display: flex;
+//     justify-content: center;
+//     border-radius: 5px;
+//     position: relative;
+  
+//     &__team {
+//       width: 540px;
+//       height: 160px;
+//     }
+  
+//     &__team h2 {
+//       color: rgb(255, 255, 255);
+//       font-size: 40px;
+//       font-weight: 900;
+//       font-family: "Fraunces", serif;
+//       text-align: center;
+//       margin-top: 121px;
+//     }
+//     &__team p {
+//       mix-blend-mode: normal;
+//       opacity: 0.8;
+//       color: #fefcf7;
+//       width: 540px;
+//       height: 80px;
+//       font-size: 16px;
+//       font-weight: 400;
+//       font-family: "Fraunces", serif;
+//       text-align: center;
+//       margin-top: 32px;
+//     }
+  
+//     // CARD START
+  
+//     &__block {
+//       position: absolute;
+//       top: 350px;
+//       display: flex;
+//       justify-content: space-around;
+//       width: 90%;
+  
+  
+//       &--card{
+//        padding-top: 72px;
+//         height: 136px;
+//         text-align: center;
+//         width: 350px;
+//         height: 382px;
+//         background: #0e8784;
+//         border-radius: 8px;
+//       }
+//       &--card h3{
+//        margin-top: 56px;
+//        font-size: 24px;
+//        font-weight: 900;
+//        font-family: "Fraunces", serif;
+//        color: #fefcf7;
+//       }
+//       &--card p{
+//         font-size: 16px;
+//         font-weight: 400;
+//         font-family: 'Barlow', sans-serif;
+//         color: #FEFCF7;
+//         margin-top: 24px;
+//         line-height: 26px;
+//       }
+//     }
+//   }
+// }
+// @media only screen and (max-width: 576px){
+//   .wrapper {
+//     height: 537px;
+//     width: 1300px;
+//     background-color: #2c343e;
+//     margin-top: 200px;
+//     display: flex;
+//     justify-content: center;
+//     border-radius: 5px;
+//     position: relative;
+  
+//     &__team {
+//       width: 540px;
+//       height: 160px;
+//     }
+  
+//     &__team h2 {
+//       color: rgb(255, 255, 255);
+//       font-size: 40px;
+//       font-weight: 900;
+//       font-family: "Fraunces", serif;
+//       text-align: center;
+//       margin-top: 121px;
+//     }
+//     &__team p {
+//       mix-blend-mode: normal;
+//       opacity: 0.8;
+//       color: #fefcf7;
+//       width: 540px;
+//       height: 80px;
+//       font-size: 16px;
+//       font-weight: 400;
+//       font-family: "Fraunces", serif;
+//       text-align: center;
+//       margin-top: 32px;
+//     }
+  
+//     // CARD START
+  
+//     &__block {
+//       position: absolute;
+//       top: 350px;
+//       display: flex;
+//       justify-content: space-around;
+//       width: 90%;
+  
+  
+//       &--card{
+//        padding-top: 72px;
+//         height: 136px;
+//         text-align: center;
+//         width: 350px;
+//         height: 382px;
+//         background: #0e8784;
+//         border-radius: 8px;
+//       }
+//       &--card h3{
+//        margin-top: 56px;
+//        font-size: 24px;
+//        font-weight: 900;
+//        font-family: "Fraunces", serif;
+//        color: #fefcf7;
+//       }
+//       &--card p{
+//         font-size: 16px;
+//         font-weight: 400;
+//         font-family: 'Barlow', sans-serif;
+//         color: #FEFCF7;
+//         margin-top: 24px;
+//         line-height: 26px;
+//       }
+//     }
+//   }
+// }
+// @media only screen and (max-width: 480px){
+//   .wrapper {
+//     height: 537px;
+//     width: 1300px;
+//     background-color: #2c343e;
+//     margin-top: 200px;
+//     display: flex;
+//     justify-content: center;
+//     border-radius: 5px;
+//     position: relative;
+  
+//     &__team {
+//       width: 540px;
+//       height: 160px;
+//     }
+  
+//     &__team h2 {
+//       color: rgb(255, 255, 255);
+//       font-size: 40px;
+//       font-weight: 900;
+//       font-family: "Fraunces", serif;
+//       text-align: center;
+//       margin-top: 121px;
+//     }
+//     &__team p {
+//       mix-blend-mode: normal;
+//       opacity: 0.8;
+//       color: #fefcf7;
+//       width: 540px;
+//       height: 80px;
+//       font-size: 16px;
+//       font-weight: 400;
+//       font-family: "Fraunces", serif;
+//       text-align: center;
+//       margin-top: 32px;
+//     }
+  
+//     // CARD START
+  
+//     &__block {
+//       position: absolute;
+//       top: 350px;
+//       display: flex;
+//       justify-content: space-around;
+//       width: 90%;
+  
+  
+//       &--card{
+//        padding-top: 72px;
+//         height: 136px;
+//         text-align: center;
+//         width: 350px;
+//         height: 382px;
+//         background: #0e8784;
+//         border-radius: 8px;
+//       }
+//       &--card h3{
+//        margin-top: 56px;
+//        font-size: 24px;
+//        font-weight: 900;
+//        font-family: "Fraunces", serif;
+//        color: #fefcf7;
+//       }
+//       &--card p{
+//         font-size: 16px;
+//         font-weight: 400;
+//         font-family: 'Barlow', sans-serif;
+//         color: #FEFCF7;
+//         margin-top: 24px;
+//         line-height: 26px;
+//       }
+//     }
+//   }
+// }
+// @media only screen and (max-width: 375px){
+//   .wrapper {
+//     height: 537px;
+//     width: 1300px;
+//     background-color: #2c343e;
+//     margin-top: 200px;
+//     display: flex;
+//     justify-content: center;
+//     border-radius: 5px;
+//     position: relative;
+  
+//     &__team {
+//       width: 540px;
+//       height: 160px;
+//     }
+  
+//     &__team h2 {
+//       color: rgb(255, 255, 255);
+//       font-size: 40px;
+//       font-weight: 900;
+//       font-family: "Fraunces", serif;
+//       text-align: center;
+//       margin-top: 121px;
+//     }
+//     &__team p {
+//       mix-blend-mode: normal;
+//       opacity: 0.8;
+//       color: #fefcf7;
+//       width: 540px;
+//       height: 80px;
+//       font-size: 16px;
+//       font-weight: 400;
+//       font-family: "Fraunces", serif;
+//       text-align: center;
+//       margin-top: 32px;
+//     }
+  
+//     // CARD START
+  
+//     &__block {
+//       position: absolute;
+//       top: 350px;
+//       display: flex;
+//       justify-content: space-around;
+//       width: 90%;
+  
+  
+//       &--card{
+//        padding-top: 72px;
+//         height: 136px;
+//         text-align: center;
+//         width: 350px;
+//         height: 382px;
+//         background: #0e8784;
+//         border-radius: 8px;
+//       }
+//       &--card h3{
+//        margin-top: 56px;
+//        font-size: 24px;
+//        font-weight: 900;
+//        font-family: "Fraunces", serif;
+//        color: #fefcf7;
+//       }
+//       &--card p{
+//         font-size: 16px;
+//         font-weight: 400;
+//         font-family: 'Barlow', sans-serif;
+//         color: #FEFCF7;
+//         margin-top: 24px;
+//         line-height: 26px;
+//       }
+//     }
+//   }
+// }
+
+
+.wrapper {
+  height: 537px;
+  width: 1300px;
+  background-color: #2c343e;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+
+  &__team {
+    width: 540px;
+    height: 160px;
+  }
+
+  &__team h2 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+    text-align: center;
+    margin-top: 121px;
+  }
+  &__team p {
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    color: #fefcf7;
+    width: 540px;
+    height: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Fraunces", serif;
+    text-align: center;
+    margin-top: 32px;
+  }
+
+  // CARD START
+
+  &__block {
+    position: absolute;
+    top: 350px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+
+
+    &--card{
+     padding-top: 72px;
+      height: 136px;
+      text-align: center;
+      width: 350px;
+      height: 382px;
+      background: #0e8784;
+      border-radius: 8px;
+    }
+    &--card h3{
+     margin-top: 56px;
+     font-size: 24px;
+     font-weight: 900;
+     font-family: "Fraunces", serif;
+     color: #fefcf7;
+    }
+    &--card p{
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Barlow', sans-serif;
+      color: #FEFCF7;
+      margin-top: 24px;
+      line-height: 26px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.our-headquarters-head {
+  position: absolute;
+  left: 160px;
+  top: 2110px;
+  margin-top: px;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+  color: #83888f;
+}
+  
+
+
+.world__map {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  &--section {
+    margin-top: 278px;
+
+    &-block {
+      width: 285px;
+      height: 167px;
+    }
+  }
+  &--section h2 {
+    margin-top: 45px;
+    font-size: 32px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+  }
+  &--section ul {
+    margin-top: 24px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333D4B;
+  }
+}

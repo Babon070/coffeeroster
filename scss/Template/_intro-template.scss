@@ -1,0 +1,27 @@
+.block2{
+    background-image: url("../../images/template/Bitmap.jpg");
+    height: 450px;
+    margin-top: 50px;
+    position: relative;
+    border-radius: 10px;
+
+    &__intro{
+        position: absolute;
+        color: #fff;
+        width: 486px;
+        height: 182px;
+        top: 134px;
+        left: 85px;
+        
+    }
+    &__intro h2{
+        font-size:72px;
+        font-weight: 900;
+        font-family: "Fraunces", serif;
+    }
+
+    &__intro p{
+        margin-top: 32px;
+        color: #FEFCF7;
+    }
+}

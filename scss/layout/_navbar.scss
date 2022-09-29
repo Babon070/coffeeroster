@@ -1,0 +1,32 @@
+@media only screen and (max-width: 992px){}
+@media only screen and (max-width: 768px){}
+@media only screen and (max-width: 576px){}
+@media only screen and (max-width: 480px){}
+@media only screen and (max-width: 375px){}
+
+
+
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // margin-top: 44px;
+  height: 80px;
+  
+
+  &__ul {
+    display: flex;
+    justify-content: space-between;
+    width: 28%;
+
+
+    &--list a{
+     color: #83888F;
+     font-size: 12px;
+     font-weight: 700;
+     font-family: "Barlow", sans-serif;
+    }
+  }
+}

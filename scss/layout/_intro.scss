@@ -1,0 +1,56 @@
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 480px) {
+}
+@media only screen and (max-width: 375px) {
+}
+
+.block {
+  height: 600px;
+  background-image: url("../../images/section-intro/Bitmap.svg");
+  margin-top: 45px;
+  position: relative;
+  padding-top: 44px;
+
+  &__intro {
+    position: absolute;
+    width: 493px;
+    height: 367px;
+    top: 117px;
+    left: 85px;
+  }
+
+  &__title {
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+  }
+  &__title--desc {
+    width: 445px;
+    height: 78px;
+    color: $main-light;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 32px;
+  }
+  .block__title--desc-btn {
+    background: #0e8784;
+    border-radius: 6px;
+    width: 217px;
+    height: 56px;
+    margin-top: 56px;
+    font-size: 18px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    color: $main-light;
+  }
+
+  .block__title--desc-btn:hover{
+    @extend %btn-hover;
+  }
+}

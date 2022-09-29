@@ -1,0 +1,32 @@
+.coffes{
+    display: flex;
+    
+    margin-top: 168px;
+    .coffe__drink{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        &--img{
+            border-radius: 10px;
+        }
+        &--desc{
+            width: 540px;
+            height: 340px;
+            margin-left: 125px;
+          
+        }
+        &--desc h2 {
+            font-size: 40px;
+            font-weight: 900;
+            font-family: "Fraunces", serif;
+        }
+        &--desc p{
+           margin-top: 32px;
+           line-height: 26px;
+           font-size: 16px;
+           font-weight: 400;
+           font-family: 'Barlow', sans-serif;
+        }
+    }
+}
